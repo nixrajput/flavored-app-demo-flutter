@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flavored_app_demo (blue)",
+            "program": "${workspaceFolder}/lib/main_blue.dart",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "blueflavor"
+            ]
+        },
+        {
+            "name": "flavored_app_demo (red)",
+            "program": "${workspaceFolder}/lib/main_red.dart",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "redflavor"
+            ]
+        },
+    ]
+}
